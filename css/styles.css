@@ -1,0 +1,21 @@
+/* ****************************************
+
+Zauz.net CSS
+
+**************************************** */
+.main {
+background-color: black; 
+color: white;
+font-family: Consolas,monaco,monospace;
+border-radius: 25px;
+padding: 10px;
+width: 150px;
+height: 200px;
+}
+img{
+background-color: black;
+}
+body{
+background-color: black;
+color: white;
+}
