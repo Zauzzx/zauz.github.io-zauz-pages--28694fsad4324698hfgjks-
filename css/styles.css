@@ -3,6 +3,9 @@
 Zauz.net CSS
 
 **************************************** */
+
+/* Might not be optimized if you wanna fix it */
+
 main {
     border-radius: 25px;
     padding: 10px;
@@ -23,4 +26,11 @@ body{
 }
 h1{
     margin-top: -23%;
+}
+.fouronefour1{
+    margin-top: 30%;
+    scale: 3;
+}
+.fouronefour2{
+    margin-top: 30%;
 }
