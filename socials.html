@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socials</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+:root {
+    --bg-color: #02001a;
+    --text-color: #ffffff;
+    --link-bg: #262626;
+    --link-hover: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Consolas,monaco,monospace;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: -35px;
+    border: 3px solid #000000;
+}
+
+.profile h1 {
+    font-size: 2.0rem;
+    margin-bottom: 5px;
+}
+
+.profile p {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link {
+    background-color: var(--link-bg);
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: var(--link-hover);
+}
+
+.link svg {
+    width: 20px;
+    height: 20px;
+}
+.logo-socials-placement{
+    scale: 25%;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="imgs/zauz_pfp.jpg" alt="Profile Picture" class="profile-img">
+            <img src="imgs/logo2.png" alt="zauz" class="logo-socials-placement">
+        </div>
+        <div class="links">
+            <a href="https://www.instagram.com/zauzzx" class="link" target="_blank">
+                <i data-feather="instagram"></i> Instagram
+            </a>
+            <a href="https://www.tiktok.com/@zauzzx" class="link" target="_blank">
+                <i data-feather="tiktok"></i> Tiktok
+            </a>
+            <a href="https://discordapp.com/users/384033036154699779" class="link" target="_blank">
+                <i data-feather="discord"></i> Discord
+            </a>
+            <a href="https://www.youtube.com/@zauzzx" class="link" target="_blank">
+                <i data-feather="youtube"></i> YouTube
+            </a>
+        </div>
+    </div>
+</body>
+</html>
